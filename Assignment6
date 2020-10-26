@@ -1,0 +1,48 @@
+What functionalities your project has now:
+
+    Android App:
+        - Check permission for camera
+        - Open the camera
+        - Take a picture
+        - Retaking a picture
+        - Create an file for the picture
+        - Save that picture to the phone's gallery
+        - Retrive and display the picture in the app
+    Backend:
+        - Classification Model has been partially trained
+        - Image of a dog is cropped after detection
+        - Python scripts run dog detection
+
+What functionalities need unit tests:
+
+    Android App:
+        - Image file being created
+        - Check permission for camera
+        - Move to second activity successfully
+        - Dog breed is correctly displayed
+        - Cropped image is correctly displayed
+
+    Backend:
+        - ML data validation
+
+What functionalities do not need unit tests:
+
+    Android App:
+        - Opening the camera
+        - Taking a picture
+        - Retaking a picture
+        - Saving image to the gallery
+        - Displaying caputured image (taken by user)
+        
+    Backend:
+        - ML data validation, script that divides between database and test images
+
+
+How to write unit tests in your project:
+
+    Androip App:
+        - JUnit 4 tests in Android studio 
+        - Also using Robolectric for testing
+
+    Backend:
+        - ML data validation, script that divides between database and test images
