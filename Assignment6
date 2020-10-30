@@ -8,6 +8,7 @@ What functionalities your project has now:
         - Create an file for the picture
         - Save that picture to the phone's gallery
         - Retrive and display the picture in the app
+        - Move to a second activity
     Backend:
         - Classification Model has been partially trained
         - Image of a dog is cropped after detection
